@@ -74,11 +74,6 @@ print ''
 
 
 
-except KeyboardInterrupt:
-	print bcolors.FAIL + '\nCanceled' + bcolors.ENDC
-	sys.exit()
-
-
 
 
 try:
