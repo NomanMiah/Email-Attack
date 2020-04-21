@@ -12,7 +12,7 @@ Made with ![heart](https://cloud.githubusercontent.com/assets/4301109/16754758/8
 - Support Hotmail/Outlook
 
 ## Usage
-Email-Attack should work on all Linux distros running Python 2.7
+Email-Attack should work on all Linux distros running Python or Termux
 First, clone it by entering the following command in the terminal
 ``` bash
 https://github.com/NomanMiah/Email-Attack.git
