@@ -15,7 +15,7 @@ Made with ![heart](https://cloud.githubusercontent.com/assets/4301109/16754758/8
 Email-Attack should work on all Linux distros running Python 2.7
 First, clone it by entering the following command in the terminal
 ``` bash
-https://github.com/NomanMiah/Mail-Attack.git
+https://github.com/NomanMiah/Email-Attack.git
 ```
 Now navigate to Mail-Attack directory
 ``` bash
