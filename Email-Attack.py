@@ -49,7 +49,7 @@ except IOError:
 #Input
 email = raw_input('Attacker Gmail Address : ')
 print '             '
-user = raw_input('Anonymous name : ')
+user = raw_input('Subject (Optional) : ')
 print '      '
 passwd = getpass.getpass('Password: ')
 
