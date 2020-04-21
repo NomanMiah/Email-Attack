@@ -26,4 +26,4 @@ Now you can run Mail-Attack
 python2 Email-Attack.py
 ```
 ## Note
-You need to enable less secure apps on Gmail and Yahoo
+You need to enable lesssecure apps on Gmail, Yahoo, Hotmail/Outlook.
