@@ -1,43 +1,52 @@
 #!/usr/bin/python
-#E-bomber
-#This code for education purpose only.
-#Use it at your own risk !!!
-
-
-
-import os
 import smtplib
+import time
+import os
 import getpass
 import sys
-import time
 
-print '                                                                    '
-print '                                                                     '
-print '           			 \|/
-print '                `--+--'
-print '                   |
-print '               ,--'#`--.
-print '               |#######|
-print '            _.-'#######`-._
-print '         ,-'###############`-.
-print '       ,'#####################`,         +-+-+-+-+-+-+-+-+-+-+-+
-print '      |#########################|        |M|a|i|l|-|A|t|t|a|c|k|
-print '     |###########################|       +-+-+-+-+-+-+-+-+-+-+-+
-print '    |#############################|      Author: Md. Noman Miah
-print '    |#############################|              
-print '    |#############################|
-print '     |###########################|
-print '      \#########################/
-print '       `.#####################,'
-print '         `._###############_,'
-print '            `--..#####..--'                                 ,-.--.
+class bcolors:
+	OKGREEN = '\033[92m'
+	WARNING = '\033[93m'
+	FAIL = '\033[91m'
+	ENDC = '\033[0m'
+
+
+def bomb():
+	os.system('clear')
+	print bcolors.OKGREEN + '''
+			 \|/
+                       `--+--'
+                          |
+                      ,--'#`--.
+                      |#######|
+                   _.-'#######`-._
+                ,-'###############`-.
+              ,'#####################`,         +-+-+-+-+-+-+-+-+-+-+-+
+             |#########################|        |M|a|i|l|-|A|t|t|a|c|k|
+            |###########################|       +-+-+-+-+-+-+-+-+-+-+-+
+           |#############################|      Author: Md. Noman Miah
+           |#############################|              
+           |#############################|
+            |###########################|
+             \#########################/
+              `.#####################,'
+                `._###############_,'
+                   `--..#####..--'                                 ,-.--.
 *.______________________________________________________________,' (Bomb)
-                                                                    `--' '''
+                                                                    `--' ''' + bcolors.ENDC
 
 
-print '                                           '
+os.system('clear')
+try:
+	file1 = open('Banner.txt', 'r')
+	print(' ')
+	print bcolors.OKGREEN + file1.read() + bcolors.ENDC
+	file1.close()
+except IOError:
+	print('Banner File not found')
 
-print '    '
+#Input
 email = raw_input('Attacker Gmail Address : ')
 print '             '
 user = raw_input('Anonymous name : ')
