@@ -79,7 +79,7 @@ print ''
 
 
 try:
-    bomb()
+    #bomb()
     server = smtplib.SMTP(smtp_server,port) 
     server.ehlo()
     server.starttls()
