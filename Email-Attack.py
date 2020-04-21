@@ -13,7 +13,7 @@ import time
 
 print '                                                                    '
 print '                                                                     '
-print '      			 \|/
+print '           			 \|/
 print '                `--+--'
 print '                   |
 print '               ,--'#`--.
