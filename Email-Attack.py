@@ -72,6 +72,15 @@ port = 587
 
 print ''
 
+
+
+except KeyboardInterrupt:
+	print bcolors.FAIL + '\nCanceled' + bcolors.ENDC
+	sys.exit()
+
+
+
+
 try:
     server = smtplib.SMTP(smtp_server,port) 
     server.ehlo()
